@@ -1,7 +1,7 @@
 {
-  "name": "colegio-ingles",
+  "name": "dr-ruiz-front",
   "version": "1.0.0",
-  "description": "Front-end del sitio web de colegio inglés. Desarrollado con Next JS, utiliza Graph QL como conexión de hacia un servidor externo.",
+  "description": "Front-end del sitio web del dr ruiz.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -16,15 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/octatum/colegio-ingles.git"
+    "url": "https://github.com/RobRuizR/dffro"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/octatum/colegio-ingles/issues"
-  },
-  "homepage": "https://gitlab.com/octatum/colegio-ingles#readme",
+  "homepage": "https://github.com/RobRuizR/dffro",
   "dependencies": {
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.7.4",
     "@babel/plugin-proposal-optional-chaining": "^7.7.5",

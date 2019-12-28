@@ -1,10 +1,10 @@
-# Colegio Inglés
+# Dr Ruiz Front
 
-Front-end del sitio web de colegio inglés. Desarrollado con Next JS.
+Desarrollado con Next JS.
 
 ## Tabla de contenido
 
-- [Colegio Inglés](#colegio-ingl%c3%a9s)
+- [Dr Ruiz Back]
   - [Tabla de contenido](#tabla-de-contenido)
   - [Instalación](#instalaci%c3%b3n)
     - [Prerrequisitos](#prerrequisitos)
@@ -18,18 +18,9 @@ Front-end del sitio web de colegio inglés. Desarrollado con Next JS.
 
 ## Instalación
 
-### Prerrequisitos
-
-Para utilizar este repositorio es necesario:
-
-- Configurar una SSH Key con tu cuenta de usuario de Gitlab. Para esto puedes seguir [esta útil guía creada por GitLab](https://docs.gitlab.com/ee/ssh/#types-of-ssh-keys-and-which-to-choose 'guía de cómo instalar y usar llaves ssh para utilizar repositorios con GitLab').
-- Tener instalado `git` en tu equipo
-- Tener instalado `Node 10` en tu equipo.
-
 ### Setup para desarrollo
 
-1. Utiliza `git clone git@gitlab.com:octatum/colegio-ingles.git` para clonar el repositorio en tu equipo.
-2. Una vez descargado el proyecto, abre la carpeta que git creó y ejecuta `npm install` para instalar las dependencias.
+1. Una vez descargado el proyecto, abre la carpeta que git creó y ejecuta `npm install` para instalar las dependencias.
 
 ### Setup para producción
 
