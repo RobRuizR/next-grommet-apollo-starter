@@ -1,21 +1,3 @@
-# Dr Ruiz Front
-
-Desarrollado con Next JS.
-
-## Tabla de contenido
-
-- [Dr Ruiz Back]
-  - [Tabla de contenido](#tabla-de-contenido)
-  - [Instalación](#instalaci%c3%b3n)
-    - [Prerrequisitos](#prerrequisitos)
-    - [Setup para desarrollo](#setup-para-desarrollo)
-    - [Setup para producción](#setup-para-producci%c3%b3n)
-  - [Pruebas](#pruebas)
-  - [Estructura del proyecto](#estructura-del-proyecto)
-  - [Herramientas](#herramientas)
-    - [Desarrollo de aplicación](#desarrollo-de-aplicaci%c3%b3n)
-    - [Dev-tools](#dev-tools)
-
 ## Instalación
 
 ### Setup para desarrollo
