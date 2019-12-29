@@ -5,6 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Box } from 'rebass';
 import { createGlobalStyle } from 'styled-components';
+import { Grommet } from 'grommet';
 import './reset.css';
 
 const GlobalStyle = createGlobalStyle`
@@ -43,25 +44,30 @@ const GlobalStyle = createGlobalStyle`
 function AppLayout({ children, showNav, pageTitle, initialLanguage }) {
   return (
     <React.Fragment>
-      <Head>
-        <title>{pageTitle || '// TODO: Title'}</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      <GlobalStyle />
-      <Box mx="auto" mb="auto" width={1}>
-        <SkipNavContent />
-        {children}
-      </Box>
-      <ToastContainer
-        position="top-right"
-        autoClose={3000}
-        hideProgressBar
-        closeOnClick
-        rtl={false}
-        pauseOnVisibilityChange
-        draggable
-        pauseOnHover
-      />
+      <Grommet plain>
+        <Head>
+          <title>{pageTitle || '// TODO: Title'}</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
+        <GlobalStyle />
+        <Box mx="auto" mb="auto" width={1}>
+          <SkipNavContent />
+          {children}
+        </Box>
+        <ToastContainer
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar
+          closeOnClick
+          rtl={false}
+          pauseOnVisibilityChange
+          draggable
+          pauseOnHover
+        />
+      </Grommet>
     </React.Fragment>
   );
 }

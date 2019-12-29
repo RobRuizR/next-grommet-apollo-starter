@@ -4,7 +4,7 @@
   "description": "Front-end del sitio web del dr ruiz.",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "develop": "next -p 8000",
     "dev:gql": "micro pages/api/graphql.js",
     "build": "next build",
     "start": "next start",
